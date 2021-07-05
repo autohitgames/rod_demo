@@ -1,0 +1,80 @@
+{
+	"mapPath": "campaign/Tutorial2",
+	"mapName": "Tutorial2",
+	"neutralBuildings": [],
+	"players": [{
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 2,
+			"posY": 6,
+			"life": 100,
+			"tag": "archer1",
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},
+		{
+			"posX": 1,
+			"posY": 4,
+			"life": 100,
+			"tag": "archer2",
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		}],
+		"buildings": [{
+			"tag": "daBuilding",
+			"posX": 1,
+			"posY": 1,
+			"life": 100,
+			"materials": 35,
+			"active": false,
+			"passive": true
+		}],
+		"knownUnits": [{
+			"seniority": 0,
+			"primary": 0,
+			"secondaries": [],
+			"disabled": false
+		}, {
+			"seniority": 0,
+			"primary": 1,
+			"secondaries": [],
+			"disabled": true
+		}, {
+			"seniority": 0,
+			"primary": 2,
+			"secondaries": [],
+			"disabled": true
+		}, {
+			"seniority": 0,
+			"primary": 3,
+			"secondaries": [],
+			"disabled": true
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 3,
+			"posY": 5,
+			"life": 80,
+			"tag": "enemy1",
+			"type": {
+				"seniority": 0,
+				"primary": 0,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		}],
+		"buildings": []
+	}],"featureFlags":{"experience":false,"tacticPoints":false,"battlePoints":false,"randomness":false, "buildingUpgrades": false}
+}

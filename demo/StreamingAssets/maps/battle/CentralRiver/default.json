@@ -1,0 +1,95 @@
+{
+	"mapPath": "battle/CentralRiver",
+	"mapName": "Central river",
+	"neutralMines": [{
+			"posX": 5,
+			"posY": 3
+		},
+		{
+			"posX": 0,
+			"posY": 6
+		},
+		{
+			"posX": 13,
+			"posY": 3
+		},
+		{
+			"posX": 8,
+			"posY": 6
+		}],
+	"neutralBuildings": [{
+		"posX": 0,
+		"posY": 2,
+		"life": 100,
+		"materials": 35,
+		"active": true
+	},
+	{
+		"posX": 11,
+		"posY": 3,
+		"life": 100,
+		"materials": 35,
+		"active": true,
+		"extraDefense": true,
+		"extraRange": true
+	},{
+		"posX": 2,
+		"posY": 6,
+		"life": 100,
+		"materials": 35,
+		"active": true,
+		"extraDefense": true,
+		"extraRange": true
+	},
+	{
+		"posX": 13,
+		"posY": 7,
+		"life": 100,
+		"materials": 35
+	}],
+	"players": [{
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+		"buildings": [{
+			"posX": 10,
+			"posY": 9,
+			"life": 100,
+			"materials": 35,
+			"active": true
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+		"buildings": [{
+			"posX": 3,
+			"posY": 0,
+			"life": 100,
+			"materials": 35,
+            "active": true
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+		"buildings": [{
+			"posX": 3,
+			"posY": 9,
+			"life": 100,
+			"materials": 35,
+            "active": true
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+		"buildings": [{
+			"posX": 10,
+			"posY": 0,
+			"life": 100,
+			"materials": 35,
+            "active": true
+		}]
+	}]
+}

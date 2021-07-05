@@ -1,0 +1,62 @@
+{
+	"mapPath": "battle/TakeThePosition",
+	"mapName": "TakeThePosition",
+	"neutralBuildings": [],
+	"neutralMines": [],
+	"players": [{
+		"mines": [{
+			"posX": 2,
+			"posY": 2
+		},{
+			"posX": 12,
+			"posY": 2
+		}],
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 8,
+			"posY": 3,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 0,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		}],
+		"buildings": [{
+			"posX": 7,
+			"posY": 1,
+			"life": 100,
+			"materials": 35,
+			"active": true,
+			"extraLifeRegen": true,
+			"extraMaterialsRegen": true
+		}]
+	}, {
+		"mines": [{
+			"posX": 3,
+			"posY": 10
+		},{
+			"posX": 12,
+			"posY": 9
+		}],
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+		"buildings": [{
+			"posX": 3,
+			"posY": 8,
+			"life": 100,
+			"materials": 35,
+			"active": true
+		},
+		{
+			"posX": 11,
+			"posY": 8,
+			"life": 100,
+			"materials": 35,
+			"active": true
+		}],
+		"recruitPrefs": { "primaryBest": 2 }
+	}]
+}
