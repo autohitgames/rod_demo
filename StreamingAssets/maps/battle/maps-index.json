@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Keep it simple (NEW)",
+        "players": 2,
+        "dirPath": "battle/KeepItSimple"
+    },
+    {
+        "name": "Maybe it's not that simple (NEW)",
+        "players": 2,
+        "dirPath": "battle/MaybeItsNotThatSimple"
+    },
+    {
+        "name": "Team fortress (NEW)",
+        "players": 2,
+        "dirPath": "battle/TeamFortress"
+    },
+    {
+        "name": "Assault!",
+        "players": 2,
+        "dirPath": "battle/Assault"
+    },
+    {
+        "name": "Gold fever",
+        "players": 2,
+        "dirPath": "battle/GoldFever"
+    },
+    {
+        "name": "War game",
+        "players": 2,
+        "dirPath": "battle/WarGame"
+    },
+    {
+        "name": "Take the position! (AI)",
+        "description": "Team 2 has advantatge. Make Team 2 be AI and play with AI Terrain deck.",
+        "players": 2,
+        "dirPath": "battle/TakeThePosition"
+    },
+    {
+        "name": "Demoland",
+        "players": 2,
+        "dirPath": "battle/Demoland"
+    },
+    {
+        "name": "Surrounded",
+        "players": 2,
+        "dirPath": "battle/Surrounded"
+    },
+    {
+        "name": "Markitus",
+        "players": 2,
+        "dirPath": "battle/Markitus"
+    },
+    {
+        "name": "So near so far",
+        "players": 2,
+        "dirPath": "battle/SoNearSoFar"
+    },
+    {
+        "name": "Runaway",
+        "players": 2,
+        "dirPath": "battle/Runaway"
+    },
+    {
+        "name": "Small",
+        "players": 2,
+        "dirPath": "battle/Small"
+    },
+    {
+        "name": "Coast",
+        "players": 2,
+        "dirPath": "battle/Coast"
+    },
+    {
+        "name": "Dead row",
+        "players": 2,
+        "dirPath": "battle/DeadRow"
+    },
+    {
+        "name": "Enigma (3)",
+        "players": 3,
+        "dirPath": "battle/Enigma"
+    },
+    {
+        "name": "Quiet Lagoon (3)",
+        "players": 3,
+        "dirPath": "battle/QuietLagoon"
+    },
+    {
+        "name": "Rivers! (3)",
+        "players": 3,
+        "dirPath": "battle/Rivers"
+    },
+    {
+        "name": "Pressure(4)",
+        "players": 4,
+        "dirPath": "battle/Pressure"
+    },
+    {
+        "name": "Central River(4)",
+        "players": 4,
+        "dirPath": "battle/CentralRiver"
+    }
+]

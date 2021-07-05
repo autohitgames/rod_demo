@@ -1,0 +1,115 @@
+{
+	"mapPath": "challenge/Arena",
+	"mapName": "Arena",
+	"neutralBuildings": [],
+	"neutralMines": [],
+	"players": [{
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 2,
+			"posY": 2,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 0,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},
+		{
+			"posX": 1,
+			"posY": 3,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},
+		{
+			"posX": 1,
+			"posY": 1,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},
+		{
+			"posX": 0,
+			"posY": 2,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 1,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		}],
+		"buildings": []
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 8,
+			"posY": 3,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 0,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		},
+		{
+			"posX": 7,
+			"posY": 2,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		},
+		{
+			"posX": 8,
+			"posY": 1,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		},
+		{
+			"posX": 7,
+			"posY": 1,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 1,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		}],
+		"buildings": []
+	}],
+	"challengeObjectives": [
+		{
+			"customIcon": 1,
+			"stringKey": "obj_cha_100"
+		}
+	]
+}

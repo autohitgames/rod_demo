@@ -1,0 +1,86 @@
+{
+	"mapPath": "battle/Enigma",
+	"mapName": "Enigma",
+	"neutralBuildings": [{
+		"posX": 6,
+		"posY": 3,
+		"life": 100,
+		"materials": 35,
+		"active": true
+	},{
+		"posX": 7,
+		"posY": 6,
+		"life": 100,
+		"materials": 35,
+		"active": true
+	},{
+		"posX": 3,
+		"posY": 9,
+		"life": 100,
+		"materials": 35,
+		"active": true
+	},{
+		"posX": 10,
+		"posY": 10,
+		"life": 100,
+		"materials": 35,
+		"active": true
+	}],
+	"neutralMines": [{
+			"posX": 12,
+			"posY": 3
+		},{
+			"posX": 1,
+			"posY": 8
+		},{
+			"posX": 10,
+			"posY": 8
+		},{
+			"posX": 6,
+			"posY": 10
+		}
+	],
+	"players": [{
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 8,
+			"posY": 7,
+			"life": 100,
+			"type": {
+				"seniority": 2,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 7,
+			"posY": 8,
+			"life": 100,
+			"type": {
+				"seniority": 2,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 7,
+			"posY": 7,
+			"life": 100,
+			"type": {
+				"seniority": 2,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		}]
+	}]
+}

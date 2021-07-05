@@ -1,0 +1,70 @@
+{
+	"mapPath": "battle/Pressure",
+	"mapName": "Pressure",
+	"neutralMines": [
+		{
+			"posX": 3,
+			"posY": 5
+		},
+		{
+			"posX": 5,
+			"posY": 3
+		}],
+	"neutralBuildings": [{
+		"posX": 4,
+		"posY": 4,
+		"life": 100,
+		"materials": 35,
+		"active": true,
+		"extraDefense": true,
+		"extraRange": true,
+		"extraMaterialsRegen": true,
+		"extraLifeRegen": true
+	}],
+	"players": [{
+			"tacticPoints": 10,
+			"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+			"buildings": [{
+				"posX": 4,
+				"posY": 8,
+				"life": 100,
+				"materials": 35,
+				"active": true
+			}]
+		}, {
+			"tacticPoints": 10,
+			"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+			"buildings": [{
+				"posX": 0,
+				"posY": 4,
+				"life": 100,
+				"materials": 35,
+				"active": true
+			}]
+		}, {
+			"tacticPoints": 10,
+			"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+			"buildings": [{
+				"posX": 4,
+				"posY": 0,
+				"life": 100,
+				"materials": 35,
+				"active": true
+			}]
+		}, {
+			"tacticPoints": 10,
+			"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [],
+			"buildings": [{
+				"posX": 8,
+				"posY": 4,
+				"life": 100,
+				"materials": 35,
+				"active": true
+			}]
+		}
+	]
+}

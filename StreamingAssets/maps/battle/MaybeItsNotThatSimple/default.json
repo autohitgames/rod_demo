@@ -1,0 +1,57 @@
+{
+	"mapPath": "battle/MaybeItsNotThatSimple",
+	"mapName": "Maybe it's not that simple",
+	"neutralMines": [{
+		"posX": 5,
+		"posY": 5
+	}],
+	"players": [{
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 3,
+			"posY": 1,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		}],
+		"buildings": [{
+			"posX": 2,
+			"posY": 1,
+			"life": 100,
+			"materials": 20,
+			"active": true
+		}]
+	}, {
+		"allowedBuildingUpgrades":{"population":true,"materials":true,"defense":true,"range":true},
+		"units": [{
+			"posX": 9,
+			"posY": 5,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		}],
+		"buildings": [{
+			"posX": 10,
+			"posY": 3,
+			"life": 100,
+			"materials": 20,
+			"active": false
+		}]
+	}],
+	"challengeObjectives": [
+		{
+			"customIcon": 3,
+			"stringKey": "obj_cha_generic_defeat_regular"
+		}
+	]
+}

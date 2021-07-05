@@ -1,0 +1,97 @@
+{
+	"mapPath": "challenge/TheRiver",
+	"mapName": "The river",
+	"neutralBuildings": [],
+	"neutralMines": [],
+	"players": [{
+		"units": [{
+			"posX": 3,
+			"posY": 1,
+			"life": 50,
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},{
+			"posX": 5,
+			"posY": 0,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		},{
+			"posX": 4,
+			"posY": 3,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 0,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		},{
+			"posX": 6,
+			"posY": 3,
+			"life": 80,
+			"type": {
+				"seniority": 0,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+		}]
+	}, {
+		"units": [{
+			"posX": 2,
+			"posY": 3,
+			"life": 80,
+			"type": {
+				"seniority": 0,
+				"primary": 0,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},{
+			"posX": 1,
+			"posY": 2,
+			"life": 100,
+			"type": {
+				"seniority": 0,
+				"primary": 2,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": true
+		},{
+			"posX": 4,
+			"posY": 0,
+			"life": 50,
+			"type": {
+				"seniority": 0,
+				"primary": 3,
+				"secondaries": []
+			},
+			"active": true,
+			"lookingRight": false
+
+		}],
+		"mines": [],
+		"buildings": []
+	}],
+	"challengeObjectives": [
+		{
+			"customIcon": 2,
+			"stringKey": "obj_cha_generic_defeat_one_turn"
+		}
+	]
+}
